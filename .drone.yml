@@ -1,3 +1,4 @@
+---
 kind: pipeline
 type: kubernetes
 name: default
@@ -47,3 +48,8 @@ steps:
   #       - main
   #     ref:
   #       - refs/tags/v*.*.*
+---
+kind: signature
+hmac: af500c67d0fa5e04088c852eab4f0b4095b3c8dabae8224853b3a762e6614707
+
+...
